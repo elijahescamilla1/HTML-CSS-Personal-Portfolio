@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT US - ESCA•LATE ENTERPRISES</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #002F63;
+            color: #fff;
+            padding: 15px 0;
+        }
+
+        .navbar {
+            background-color: #002F63;
+        }
+
+        .navbar-dark .navbar-nav .nav-link {
+            color: #fff;
+        }
+
+        .navbar-dark .navbar-toggler-icon {
+            background-color: #fff;
+        }
+
+
+        .blended-image {
+
+            max-width: 100px;
+            max-height: 50px;
+        }
+
+      
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+        }
+
+        .jumbotron {
+            background-color: #0a0631;
+            color: #b6b6b6;
+            padding: 100px 0;
+        }
+
+        .activities {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .activity-card {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #0a0631;
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <h1>ESCA•LATE ENTERPRISES</h1>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">HOME</a>
+
+            </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ABOUT US</a>
+                        </li>
+                    </ul>
+                </div>
+        </nav>
+    </header>
+
+    <div class="content">
+            <div class="blended-image">
+                <img src="Images/steve-johnson-_0iV9LmPDn0-unsplash.jpg" alt="AIMotherboardimage">
+            </div>
+    </div>
+
+
+    <div class="jumbotron">
+        <div class="container">
+            <h2>Curious About ESCA•LATE ENTERPRISES' Founder?</h2>
+            <p>Elijah Escamilla is a 21 year old who lives in NYC, originally born & raised in Chicago.</p>
+            <p>Read more below to gain more insight on Elijah!</p>
+            
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="activities">
+            <div class="activity-card">
+                <h3>Life Aspiriations</h3>
+                <p>At a very young age Elijah created goals for himself that he, one day, would hope to achieve. These goals
+                     included: Moving to NYC, living in LA, & living life unapologetically for himself.</p>
+            </div>
+            <div class="activity-card">
+                <h3>Family Life</h3>
+                <p>Elijah has two parents who have been married for over 20 years, 4 siblings, and many other members of his extended family.
+                    I guess you can say that Elijah is pretty well rounded!</p>
+            </div>
+            <div class="activity-card">
+                <h3>Early Life Experience</h3>
+                <p>Elijah grew up in a Christian school and was constantly bullied for being gay. This trauma followed throughout
+                    his early/late teens, up until Elijah decided to not let his trauma define his story.</p>
+            </div>
+            <div class="activity-card">
+                <h3>Elijah's Present Day Life</h3>
+                <p>As of this present moment, Elijah is moving to Los Angeles to pursue his life long goal of living in California.
+                    Additionally, Elijah will be creating his tech startup through the guidance of God.</p>
+            </div>
+
+            <div class="activity-card">
+                <h3>Have any Questions? Contact Us!</h3>
+
+                <form action="/submit_form" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                <br>
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+                <br>
+    <input type="submit" value="Submit">
+
+
+
+
+</form>
+</div>
+</div>
+
+
+</body>
+</html>
+
+    <footer>
+        <div class="container">
+            <p>ESCA•LATE ENTERPRISES &copy; 2024</p>
+        </div>
+        <div>
+            <i class="fab fa-facebook-square footer-icons"></i>
+            <i class="fab fa-twitter-square footer-icons"></i>
+            <i class="fab fa-instagram-square footer-icons"></i>
+            <i class="fab fa-linkedin footer-icons"></i>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    
+</body>
+</html>
